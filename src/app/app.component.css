@@ -1,0 +1,29 @@
+:root {
+  --change-screen-size: 850px;
+}
+
+body {
+  margin: 0px;
+  background-color: #ffdce1;
+}
+
+header {
+  background-color: #d4f3e5;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2em;
+  height: 33vh;
+}
+
+  header h1 {
+    margin: 0;
+    font-size: 1.6em;
+    padding-top: 1em;
+  }
+
+  header h2 {
+    margin: 0;
+    font-size: 1em;
+    padding-top: 0.6em;
+  }
+

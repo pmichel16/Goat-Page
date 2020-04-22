@@ -1,0 +1,13 @@
+<div class="product-grid">
+  <div *ngFor="let prod of kidProducts" class="product-container">
+    <div class="add-cart">
+      <div class="add-cart-text">Add to cart<br />${{prod.price.toFixed(2)}}</div>
+    </div>
+    <div class="product-image-container">
+      <img class="product-image" src="/assets/img/{{prod.imgLink}}" alt="Image of item id {{prod.id}}">
+    </div>
+    <div class="product-text-container">
+      <div class="product-text">{{prod.name}}</div>
+    </div>
+  </div>
+</div>

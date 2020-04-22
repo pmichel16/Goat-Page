@@ -1,0 +1,22 @@
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: #ffdce1;
+  font-family: 'Exo 2', sans-serif;
+  height: 50px;
+  z-index: 2;
+}
+
+.nav-tab {
+  width: 20vw;
+  text-align: center;
+  padding: 0 0.5em 0 0.5em;
+  text-decoration: none;
+  color: #000;
+  line-height: 50px;
+}
+
+  .nav-tab:hover {
+    background-color: #fffafa;
+  }
