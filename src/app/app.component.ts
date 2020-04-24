@@ -6,11 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  title = 'RouterProject';
   ngOnInit() {
   }
-
-  h1Text = "Coats for Kids";
-  h2Text = "Every goat deserves a coat";
-  title = 'RouterProject';
+  h1Text:string = "Coats for Kids";
+  h2Text:string = "Every goat deserves a coat";
 }
 

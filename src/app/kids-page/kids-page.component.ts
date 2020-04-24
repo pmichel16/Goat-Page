@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { KID_PRODUCTS } from './kids-products';
+import { HeadersService } from '../headers.service';
 
 @Component({
   selector: 'app-kids-page',
@@ -9,12 +10,10 @@ import { KID_PRODUCTS } from './kids-products';
 export class KidsPageComponent implements OnInit {
 
   constructor() { }
-
+  
   ngOnInit() {
   }
 
   kidProducts = KID_PRODUCTS;
-  h1Text = "Kids' Coats";
-  h2Text = "Our Signature Collection";
 
 }

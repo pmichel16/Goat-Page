@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\assets",
-    "\\src\\assets\\img"
+    "\\src\\app"
   ],
-  "SelectedNode": "\\src\\assets\\.gitkeep",
+  "SelectedNode": "\\src\\app\\product.ts",
   "PreviewInSolutionExplorer": false
 }
