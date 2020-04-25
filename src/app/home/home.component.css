@@ -1,0 +1,97 @@
+.sale-banner {
+  text-align: center;
+  margin: 0;
+}
+
+#sale-winter {
+  background: repeating-linear-gradient(45deg, #d4e2f3, white 20px, #d4e2f3 20px);
+}
+
+#sale-hoodie {
+  background: radial-gradient(white 30%, #ff89a2 100%);
+}
+
+.sale-textbox {
+  background-color: rgba(255,255,255,0.9);
+}
+
+.sale-text {
+  margin: 0;
+}
+
+@media (min-width:700px) {
+  .sale-container {
+    display: flex;
+  }
+
+  .sale-banner {
+    width: 50%;
+  }
+
+  #sale-winter {
+    height: 40vw; /*From picture aspect ratio*/
+  }
+
+    #sale-winter .sale-textbox {
+      height: 30vw;
+    }
+
+  #sale-hoodie {
+    height: 37.5vw;
+  }
+
+    #sale-hoodie .sale-textbox {
+      height: 27.5vw;
+    }
+
+  .sale-textbox {
+    width: 40vw;
+    margin: 5vw;
+  }
+
+  .sale-text {
+    padding: 11vw 0 0 0;
+  }
+
+  .sale-text-large {
+    padding: 3vw 0 0 0;
+    font-size: 1.5em;
+  }
+
+  .goat-photo {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (max-width:700px) {
+  .sale-container {
+    display: grid;
+    grid-template-columns: 1vw;
+  }
+
+  .sale-banner {
+    width: 100vw;
+    height: 68vw; /*From picture aspect ratio*/
+  }
+
+  .sale-textbox {
+    height: 48vw;
+    width: 80vw;
+    margin: 10vw;
+  }
+
+  .sale-text {
+    padding: 8vw 0 0 0;
+  }
+
+  .sale-text-large {
+    padding: 3vw 0 0 0;
+    font-size: 1.5em;
+  }
+
+  .goat-photo {
+    width: 100vw;
+    height: auto;
+  }
+}

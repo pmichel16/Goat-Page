@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { KID_PRODUCTS } from './kids-products';
-import { HeadersService } from '../headers.service';
 
 @Component({
   selector: 'app-kids-page',

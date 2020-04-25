@@ -12,8 +12,9 @@ import { BucksPageComponent } from './bucks-page/bucks-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 const appRoutes: Routes = [
+  {path: '', component: HomeComponent },
   {path: 'bucks', component: BucksPageComponent},
-  { path: 'does', component: DoesPageComponent },
+  {path: 'does', component: DoesPageComponent },
   {path: 'kids', component: KidsPageComponent}
 ]
 
