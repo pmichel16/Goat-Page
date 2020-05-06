@@ -1,5 +1,5 @@
 <div class="product-grid">
-  <div *ngFor="let prod of kidProducts" class="product-container">
+  <div *ngFor="let prod of kidProducts" class="product-container" (click)="prodClick(prod)">
     <div class="add-cart">
       <div class="add-cart-text">Add to cart<br />${{prod.price.toFixed(2)}}</div>
     </div>
@@ -12,4 +12,3 @@
   </div>
 </div>
 
-<button (click)="setHeader('Kids coats')">Click Here to change header value</button>

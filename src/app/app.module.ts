@@ -10,12 +10,15 @@ import { KidsPageComponent } from './kids-page/kids-page.component';
 import { DoesPageComponent } from './does-page/does-page.component';
 import { BucksPageComponent } from './bucks-page/bucks-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { AddCartService } from './add-cart.service';
 
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent },
-  {path: 'bucks', component: BucksPageComponent},
-  {path: 'does', component: DoesPageComponent },
-  {path: 'kids', component: KidsPageComponent}
+  { path: '', component: HomeComponent },
+  { path: 'bucks', component: BucksPageComponent },
+  { path: 'does', component: DoesPageComponent },
+  { path: 'kids', component: KidsPageComponent },
+  { path: 'cart', component: CartPageComponent }
 ]
 
 @NgModule({
@@ -25,7 +28,8 @@ const appRoutes: Routes = [
     KidsPageComponent,
     DoesPageComponent,
     BucksPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    CartPageComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +38,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AddCartService],
   bootstrap: [AppComponent]
 })
 

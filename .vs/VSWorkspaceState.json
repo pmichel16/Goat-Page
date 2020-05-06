@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app"
+    "\\src\\app",
+    "\\src\\assets",
+    "\\src\\assets\\img"
   ],
-  "SelectedNode": "\\src\\app\\product.ts",
+  "SelectedNode": "\\src\\app\\kids-page",
   "PreviewInSolutionExplorer": false
 }
