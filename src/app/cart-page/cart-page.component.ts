@@ -8,9 +8,11 @@ import { Product } from '../product';
   styleUrls: ['./cart-page.component.css']
 })
 export class CartPageComponent implements OnInit {
-  constructor(private addCartService: AddCartService) { }
-  cartContents: Array<Product> = this.addCartService.cart;
+  cartContents: Array<Product>;
+  constructor(private addCartService: AddCartService) { };
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.cartContents = this.addCartService.getCart();
+  }
 
 }

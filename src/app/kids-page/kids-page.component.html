@@ -1,5 +1,5 @@
 <div class="product-grid">
-  <div *ngFor="let prod of kidProducts" class="product-container" (click)="prodClick(prod)">
+  <div *ngFor="let prod of kidProducts" class="product-container" (click)="addToCart(prod)">
     <div class="add-cart">
       <div class="add-cart-text">Add to cart<br />${{prod.price.toFixed(2)}}</div>
     </div>

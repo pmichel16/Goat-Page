@@ -3,9 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\assets",
-    "\\src\\assets\\img"
+    "\\src\\app\\cart-page",
+    "\\src\\app\\kids-page"
   ],
-  "SelectedNode": "\\src\\app\\kids-page",
+  "SelectedNode": "\\src\\app\\kids-page\\kids-page.component.ts",
   "PreviewInSolutionExplorer": false
 }

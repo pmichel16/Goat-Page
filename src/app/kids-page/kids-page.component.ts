@@ -13,7 +13,7 @@ export class KidsPageComponent implements OnInit {
   constructor(private addCartService: AddCartService) { }
 
   /*Function to add an item to the cart when clicked*/
-  prodClick(item: Product) {
+  addToCart(item: Product) {
     this.addCartService.addCart(item);
   }
 
